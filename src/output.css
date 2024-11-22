@@ -612,11 +612,6 @@ video {
   margin-bottom: 8rem;
 }
 
-.mx-3{
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -641,10 +636,6 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
-}
-
 .block{
   display: block;
 }
@@ -657,8 +648,8 @@ video {
   display: none;
 }
 
-.h-64{
-  height: 16rem;
+.h-96{
+  height: 24rem;
 }
 
 .w-1\/2{
@@ -717,12 +708,6 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-8 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-
 .rounded{
   border-radius: 0.25rem;
 }
@@ -759,73 +744,16 @@ video {
   background-color: rgb(254 240 138 / var(--tw-bg-opacity, 1));
 }
 
-.bg-orange-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 215 170 / var(--tw-bg-opacity, 1));
-}
-
 .bg-BG{
-  background-image: url(' ./src/amal.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/example\.com\/background\.jpg\'\)\]{
-  background-image: url('https://example.com/background.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/example\.com\/ba\'\)\]{
-  background-image: url('https://example.com/ba');
-}
-
-.bg-\[url\(\'https\:\/\/example\.com\/\'\)\]{
-  background-image: url('https://example.com/');
-}
-
-.bg-\[url\(\'https\:\/\'\)\]{
-  background-image: url('https:/');
-}
-
-.bg-\[url\(\'https\:\/\/src\'\)\]{
-  background-image: url('https://src');
-}
-
-.bg-\[url\(\'https\:\/\/src\/\'\)\]{
-  background-image: url('https://src/');
-}
-
-.bg-\[url\(\'https\:\/\/src\/a\'\)\]{
-  background-image: url('https://src/a');
-}
-
-.bg-\[url\(\'https\:\/\/src\/am\'\)\]{
-  background-image: url('https://src/am');
-}
-
-.bg-\[url\(\'https\:\/\/src\/ama\'\)\]{
-  background-image: url('https://src/ama');
-}
-
-.bg-\[url\(\'\'\)\]{
-  background-image: url('');
-}
-
-.bg-\[url\(\'i\'\)\]{
-  background-image: url('i');
-}
-
-.bg-\[url\(\'lo\'\)\]{
-  background-image: url('lo');
-}
-
-.bg-\[url\(\'logo\'\)\]{
-  background-image: url('logo');
+  background-image: url(' ./amal.jpg');
 }
 
 .bg-cover{
   background-size: cover;
 }
 
-.bg-center{
-  background-position: center;
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .p-2{
@@ -863,11 +791,6 @@ video {
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-16{
@@ -939,11 +862,6 @@ video {
   font-weight: 700;
 }
 
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
@@ -992,11 +910,6 @@ video {
   --tw-ring-color: rgb(239 68 68 / var(--tw-ring-opacity, 1));
 }
 
-.hover\:bg-slate-500:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:text-orange-500:hover{
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
@@ -1038,10 +951,6 @@ video {
 
   .md\:flex-row{
     flex-direction: row;
-  }
-
-  .md\:items-start{
-    align-items: flex-start;
   }
 
   .md\:space-x-5 > :not([hidden]) ~ :not([hidden]){
